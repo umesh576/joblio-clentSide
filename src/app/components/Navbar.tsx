@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-white shadow-md sticky top-0 z-50 sticky">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Brand */}
         <div className="text-2xl font-bold text-blue-700">ServiceSystem</div>

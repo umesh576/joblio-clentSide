@@ -3,8 +3,10 @@ import SignupForm from "./SignupPage";
 
 const Page = () => {
   return (
-    <div className="py-10 px-10">
-      <SignupForm />
+    <div className=" flex justify-center py-10 ">
+      <div className=" border border-black px-5 ">
+        <SignupForm />
+      </div>
     </div>
   );
 };
