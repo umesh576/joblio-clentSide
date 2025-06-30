@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Input from "../components/ui/Input";
+import Input from "../ui/Input";
 import Link from "next/link";
 
 export default function LoginForm() {
